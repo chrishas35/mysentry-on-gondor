@@ -3,6 +3,8 @@ import sys
 
 import dj_database_url
 
+from sentry.conf.server import *
+
 
 CONF_ROOT = os.path.dirname(__file__)
 
