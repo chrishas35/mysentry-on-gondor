@@ -67,3 +67,9 @@ GOOGLE_OAUTH2_CLIENT_SECRET = ''
 # https://github.com/settings/applications/new
 GITHUB_APP_ID = ''
 GITHUB_API_SECRET = ''
+
+SENTRY_USE_QUEUE = True
+CELERY_IGNORE_RESULT = True
+CELERY_SEND_EVENTS = False
+CELERY_RESULT_BACKEND = 'redis'
+BROKER_URL = os.environ['GONDOR_REDIS_URL']
