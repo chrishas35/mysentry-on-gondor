@@ -1,0 +1,5 @@
+gondor
+
+psycopg2==2.4.5
+dj-database-url==0.2.1
+sentry==4.9.8
